@@ -55,5 +55,37 @@ nav a {
     text-align: center;
 }
 
+/* Projects Section Styling */
+#projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#projects .project {
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #5a5a5a;
+}
+#projects h3,p {
+    color: white;
+}
+#projects img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
 
+#contact {
+    background: #777777;
+    padding: 2em;
+    text-align: center;
+}
 
+#contact h2{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
