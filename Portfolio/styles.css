@@ -3,11 +3,12 @@ body, h1, h2, h3, p, ul, li, nav {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: black;
 }
 
 /* Header Styling */
 header {
-    background-color: #949292;
+    background-color: #b8b5b5;
     color: white;
 }
 
@@ -20,7 +21,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 
@@ -37,12 +38,18 @@ nav a {
     image-rendering: crisp-edges;
 }  
 
+#about p {
+    margin: 1em;
+    color: black;
+}
+
 #skills {
     display: flex;
     justify-content: space-around;
     padding: 2em;
     background-color: #c0bebe;
     flex-wrap: wrap;
+    color:black
 }
 
 .skill {
@@ -51,7 +58,7 @@ nav a {
     padding: 1em;
     margin: 1em;
     background-color: #949292;
-    color: white;
+    color: rgb(7, 0, 0);
     text-align: center;
 }
 

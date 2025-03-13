@@ -1,0 +1,69 @@
+.menucolor {
+    background-color:rgb(31, 61, 97);
+    }
+.hero {
+    background: #007bff;
+    color: white;
+    padding: 50px 0;
+}
+.services {
+    padding: 50px 0;
+}
+.about {
+    background: #f8f9fa;
+    padding: 50px 0;
+}
+footer {
+    background: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+
+#hero {
+    background-image: url("beach.jpg");
+    background-size:cover;
+    background-color: #cccccc;
+   }
+
+.services {
+    background-size:cover;
+    background-color: #cccccc;
+   }
+
+#services img{
+   float: left;
+    width:  100%;
+    height: 100%;
+    background-size: cover;
+   }
+
+   .card {
+    width: 100%;
+    margin-bottom: 0px;
+    background: #ffffff;
+    box-shadow: 1px 1px 1px #dfdfdf;
+    box-sizing: border-box;
+    height: 100% !important;
+   }
+
+   footer {
+    text-align: center;
+    background-color: rgb(31, 61, 97);
+    }
+/* this classs jistifies the message box element and sets it as a column */     
+.message_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+/* this class sets the size of the text input are for name and email*/
+.form-shape input{
+    width: 300px;
+}
+
+/* this class sets the size of the text input area for the message box*/
+.form-shape textarea {
+    width: 300px;
+    padding: 0.5rem;
+}
